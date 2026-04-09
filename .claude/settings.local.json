@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(sips -s format png \"/Users/traveldroid2/Library/Mobile Documents/com~apple~CloudDocs/indybrain_logo.psd\" --out \"/Users/traveldroid2/Documents/tracker/public/logo.png\")",
+      "WebFetch(domain:www.indybrain.com)",
+      "Bash(npx tsc:*)",
+      "Bash(node -e ':*)",
+      "Bash(node scripts/seed.js)",
+      "Bash(node --input-type=module)",
+      "Bash(npx --yes acorn --ecma2020 --module /Users/traveldroid2/Documents/tracker/app/page.tsx)"
+    ]
+  }
+}
